@@ -41,5 +41,19 @@ public class Student {
     public void setID(int ID) {
         this.ID = ID;
     }
+
+    /**
+     * @return the PartTime
+     */
+    public boolean isPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * @param PartTime the PartTime to set
+     */
+    public void setPartTime(boolean PartTime) {
+        this.PartTime = PartTime;
+    }
     
 }
